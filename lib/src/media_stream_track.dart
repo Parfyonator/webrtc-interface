@@ -90,7 +90,7 @@ abstract class MediaStreamTrack {
     throw UnimplementedError();
   }
 
-  Future<ByteBuffer> captureFrame() {
+  Future<String> captureFrame() {
     throw UnimplementedError();
   }
 
